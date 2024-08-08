@@ -1,0 +1,133 @@
+.content {
+  min-width: 1024px;
+  margin: auto 253px auto 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content__title {
+  width: 717px;
+  height: 116px;
+  margin: 27px auto;
+  margin-top: 220px;
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  color: #ffffff;
+}
+.content__description {
+  width: 644px;
+  height: 68px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto 0;
+}
+.content__quote {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  color: #ffffff;
+  margin-left: 445px;
+}
+.content__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto 0;
+  margin-top: 50px;
+  width: 630px;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .content {
+    margin: auto;
+    padding-top: 249px;
+  }
+  .content__title {
+    height: 98px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 49px;
+    text-align: center;
+    margin: auto;
+    width: 589px;
+  }
+  .content__description {
+    width: 630px;
+    height: 68px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #ffffff;
+    margin: auto;
+    padding: 17px;
+  }
+  .content__text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    padding-top: 76px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .content {
+    padding-top: 300px;
+  }
+
+  .content__title {
+    height: 140px;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 65px;
+    text-align: left;
+    margin: auto;
+
+    padding-top: 259px;
+  }
+  .content__description {
+    width: 408px;
+    height: 68px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 10px;
+    padding-top: 100px;
+    margin: auto;
+  }
+  .content__quote {
+    margin-left: 238px;
+  }
+  .content__text {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57.08px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 255px;
+    margin: auto;
+  }
+}
