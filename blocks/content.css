@@ -73,8 +73,7 @@
     line-height: 34px;
     text-align: left;
     color: #ffffff;
-    margin: auto;
-    padding: 17px;
+    margin: 10px auto 0 30px;
   }
   .content__text {
     font-family: Inter;
@@ -90,7 +89,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .content {
-    padding-top: 300px;
+    padding-top: 347px;
   }
 
   .content__title {
@@ -101,8 +100,6 @@
     line-height: 65px;
     text-align: left;
     margin: auto;
-
-    padding-top: 259px;
   }
   .content__description {
     width: 408px;
