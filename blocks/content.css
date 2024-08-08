@@ -26,7 +26,7 @@
   line-height: 34px;
   text-align: left;
   color: #ffffff;
-  margin: auto 0;
+  margin: 74px 0 auto;
 }
 .content__quote {
   font-family: Inter;
@@ -35,7 +35,8 @@
   line-height: 34px;
   text-align: right;
   color: #ffffff;
-  margin-left: 445px;
+  display: flex;
+  justify-content: right;
 }
 .content__text {
   font-family: Inter;
@@ -45,7 +46,7 @@
   text-align: left;
   color: #ffffff;
   margin: auto 0;
-  margin-top: 50px;
+  margin-top: 85px;
   width: 630px;
 }
 
@@ -73,7 +74,10 @@
     line-height: 34px;
     text-align: left;
     color: #ffffff;
-    margin: 10px auto 0 30px;
+    margin: 72px auto 0 30px;
+  }
+  .content__quote {
+    margin-left: 262px;
   }
   .content__text {
     font-family: Inter;
@@ -111,11 +115,11 @@
     text-align: left;
     color: #ffffff;
     margin-left: 10px;
-    padding-top: 100px;
+    padding-top: 177px;
     margin: auto;
   }
   .content__quote {
-    margin-left: 238px;
+    margin-left: 209px;
   }
   .content__text {
     font-family: Inter;
@@ -124,7 +128,7 @@
     line-height: 57.08px;
     text-align: left;
     color: #ffffff;
-    padding-top: 255px;
+    padding-top: 355px;
     margin: auto;
   }
 }
