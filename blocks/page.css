@@ -4,7 +4,7 @@
   height: 1883px;
 }
 
-@media screen and (min-width: 544px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .page {
     width: 768px;
     background-color: black;
@@ -13,12 +13,11 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (max-width: 544px) {
   .page {
     width: 320px;
     background-color: black;
     height: auto;
-
     margin: auto;
   }
 }

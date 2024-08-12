@@ -50,7 +50,7 @@
   width: 630px;
 }
 
-@media screen and (min-width: 544px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .content {
     margin: auto;
     padding-top: 249px;
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (max-width: 544px) {
   .content {
     padding-top: 347px;
   }
