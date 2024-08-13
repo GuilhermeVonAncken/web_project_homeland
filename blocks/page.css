@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1024px) {
   .page {
-    width: 768px;
+    width: 100%;
     background-color: black;
     height: auto;
     margin: auto;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 544px) {
   .page {
-    width: 320px;
+    width: 100%;
     background-color: black;
     height: auto;
     margin: auto;
