@@ -58,7 +58,7 @@
   .content__title {
     height: 98px;
     font-family: "Inter";
-    font-size: 45px;
+    font-size: 54px;
     font-weight: 900;
     line-height: 49px;
     text-align: center;
@@ -74,7 +74,7 @@
     line-height: 34px;
     text-align: left;
     color: #ffffff;
-    margin: 72px auto 0 30px;
+    margin: 120px auto 0 30px;
   }
   .content__quote {
     margin-left: 262px;
@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 544px) {
   .content {
-    padding-top: 347px;
+    padding-top: 480px;
   }
 
   .content__title {
@@ -115,7 +115,7 @@
     text-align: left;
     color: #ffffff;
     margin-left: 10px;
-    padding-top: 177px;
+    padding-top: 226px;
     margin: auto;
   }
   .content__quote {
