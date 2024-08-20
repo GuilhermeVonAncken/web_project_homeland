@@ -1,23 +1,20 @@
-.page {
-  min-width: 1024px;
+body {
   background-color: black;
-  height: 1883px;
+}
+.page {
+  background-color: black;
+  margin: auto;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px) {
   .page {
-    width: 100%;
-    background-color: black;
-    height: auto;
-    margin: auto;
+    width: fit-content;
   }
 }
 
 @media screen and (max-width: 544px) {
   .page {
-    width: 100%;
-    background-color: black;
-    height: auto;
-    margin: auto;
+    width: fit-content;
   }
 }
