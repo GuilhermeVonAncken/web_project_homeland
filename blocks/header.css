@@ -65,12 +65,55 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 768px) {
+  .header {
+    margin: auto 133px auto -17px;
+  }
+  .header__content {
+    margin: auto;
+  }
+  .header__title {
+    font-family: "Inter";
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 79px;
+    text-align: center;
+    padding-top: 32px;
+  }
+  .header__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    font-family: "Inter";
+    padding: 10px;
+  }
+  .header__logo {
+    margin: auto;
+  }
+  .header__img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px) {
   .header {
     margin: auto;
   }
   .header__content {
     margin: 1px -16px 1px -16px;
+  }
+  .header__img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: auto 1px auto 50px;
+  }
+  .header__content {
+    margin: auto -41px;
   }
   .header__title {
     font-family: "Inter";
@@ -80,6 +123,7 @@
     text-align: center;
     width: 275px;
     padding-top: 32px;
+    margin: auto 49px;
   }
   .header__subtitle {
     font-size: 16px;
@@ -90,11 +134,13 @@
     width: 288px;
     padding-bottom: 25px;
     padding-top: 10px;
+    margin: auto 35px;
   }
   .header__logo {
     margin: auto;
   }
   .header__img {
     width: 100%;
+    margin: auto 0 auto -25px;
   }
 }

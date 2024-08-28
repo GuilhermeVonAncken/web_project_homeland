@@ -13,7 +13,17 @@ body {
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 768px) {
+  .page {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 470px) {
+  .page {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 320px) {
   .page {
     width: fit-content;
   }

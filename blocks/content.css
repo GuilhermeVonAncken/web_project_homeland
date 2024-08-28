@@ -1,7 +1,6 @@
 .content {
   margin: auto 0;
   max-width: 830px;
-  padding-left: 135px;
 }
 
 .content__title {
@@ -13,6 +12,8 @@
   line-height: 58px;
   text-align: left;
   color: #ffffff;
+  padding-left: 143px;
+  width: 100%;
 }
 .content__description {
   font-family: "Inter";
@@ -23,6 +24,7 @@
   color: #ffffff;
   margin: auto 0;
   padding-top: 75px;
+  padding-left: 143px;
 }
 .content__quote {
   font-family: "Inter";
@@ -43,13 +45,52 @@
   color: #ffffff;
   margin: auto 0;
   width: 630px;
+  padding-left: 143px;
+}
+.content__gallery {
+  max-width: 1184px;
+  margin: 120px 45px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
+.content__gallery-item {
+  width: 284px;
+  height: 213px;
+}
+.content__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "top top"
+    "left right"
+    "left right"
+    "bottom";
+}
+.top {
+  grid-area: top;
+  color: #ffffff;
+  position: relative;
+}
+.left {
+  grid-area: left;
 }
 
+.right {
+  grid-area: right;
+  color: #ffffff;
+}
+.bottom {
+  grid-area: bottom;
+}
 @media screen and (max-width: 1024px) {
   .content {
-    margin: auto;
+    margin: auto 0px auto -121px;
     padding-top: 62px;
     padding: 10px;
+    max-width: 720px;
   }
   .content__title {
     height: 98px;
@@ -84,15 +125,27 @@
     color: #ffffff;
     margin: auto;
     padding-top: 97px;
-    width: 100%;
+
     max-width: 720px;
+  }
+  .content__gallery {
+    max-width: 720px;
+    margin: auto 80px auto 144px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .content__gallery-item {
+    width: 322px;
+    height: 249px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 768px) {
   .content {
-    margin: auto;
-    padding: 15px;
+    margin: auto 78px auto -130px;
+    padding: 10px 69px 10px 0px;
   }
 
   .content__title {
@@ -103,10 +156,9 @@
     line-height: 35px;
     text-align: left;
     margin: auto;
-    width: 100%;
+    max-width: 544px;
   }
   .content__description {
-    width: 100%;
     height: 68px;
     font-family: "Inter";
     font-size: 24px;
@@ -116,9 +168,10 @@
     color: #ffffff;
     padding-top: 13px;
     margin: auto;
+    max-width: 544px;
   }
   .content__quote {
-    margin-left: 85px;
+    padding-right: 20px;
     font-size: 24px;
     line-height: 34px;
   }
@@ -130,7 +183,76 @@
     text-align: left;
     color: #ffffff;
     margin: auto 0;
-    width: 100%;
+    max-width: 544px;
     padding-top: 163px;
+  }
+  .content__gallery {
+    max-width: 768px;
+    margin: 29px 28px auto 164px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .content__gallery-item {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    margin: auto 4px auto -82px;
+    padding: 13px 1px 1px 0px;
+  }
+
+  .content__title {
+    height: 140px;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+    margin: auto;
+    max-width: 320px;
+  }
+  .content__description {
+    height: 68px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 13px;
+    margin: auto;
+    max-width: 320px;
+  }
+  .content__quote {
+    margin-left: 85px;
+    margin-right: -19px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .content__text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    color: #ffffff;
+    margin: auto;
+    padding-top: 183px;
+    max-width: 320px;
+  }
+  .content__gallery {
+    margin: auto 12px auto 104px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 16px;
+  }
+  .content__gallery-item {
+    width: 100%;
   }
 }

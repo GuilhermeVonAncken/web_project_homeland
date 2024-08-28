@@ -28,11 +28,22 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 768px) {
   .footer {
-    width: 320px;
     display: flex;
     margin: 23px auto 0 auto;
     justify-content: center;
+  }
+  .footer__copyright {
+    margin: auto 164px auto 2px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: auto;
+  }
+  .footer__copyright {
+    margin: auto 0px auto 27px;
   }
 }
