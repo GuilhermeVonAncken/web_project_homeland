@@ -273,6 +273,10 @@
     align-items: center;
     margin: auto -139px auto 139px;
   }
+  .grid__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -346,5 +350,9 @@
   }
   .grid__artist {
     margin-top: 1px;
+  }
+  .grid__title {
+    font-size: 32px;
+    line-height: 35px;
   }
 }
