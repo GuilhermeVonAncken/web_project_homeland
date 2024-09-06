@@ -77,10 +77,13 @@
   color: #ffffff;
   margin-top: 30px;
   text-decoration: none;
+  align-content: center;
+  display: inline-block;
 }
 .grid__button:hover {
   opacity: 1px;
 }
+
 .image__text {
   font-family: "Inter";
   font-size: 18px;
