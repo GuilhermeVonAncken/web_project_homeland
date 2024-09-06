@@ -58,22 +58,10 @@
   width: 284px;
   height: 213px;
 }
-.content__container {
-  max-width: 984px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  grid-template-areas:
-    "header header"
-    "image right"
-    ". right"
-    "footer footer";
-}
 
 @media screen and (max-width: 1024px) {
   .content {
-    margin: auto 0px auto -121px;
+    margin: auto 0px auto 60px;
     padding-top: 62px;
     padding: 10px;
     max-width: 720px;
@@ -125,17 +113,12 @@
     width: 235px;
     height: 188px;
   }
-  .content__container {
-    max-width: 984px;
-    align-items: center;
-    margin: auto -355px auto 109px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    margin: auto 78px auto -130px;
-    padding: 10px 69px 10px 0px;
+    margin: auto;
+    max-width: 720px;
   }
 
   .content__title {
@@ -145,7 +128,6 @@
     font-weight: 900;
     line-height: 35px;
     text-align: left;
-    margin: auto;
     max-width: 544px;
   }
   .content__description {
@@ -178,7 +160,7 @@
   }
   .content__gallery {
     max-width: 768px;
-    margin: 29px 28px auto 164px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -188,17 +170,10 @@
     height: 100%;
     width: 100%;
   }
-  .content__container {
-    max-width: 720px;
-    align-items: center;
-    margin: auto -139px auto 139px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .content {
-    margin: auto 4px auto -82px;
-    padding: 13px 1px 1px 0px;
   }
 
   .content__title {
@@ -208,7 +183,7 @@
     font-weight: 900;
     line-height: 35px;
     text-align: left;
-    margin: auto;
+    margin: auto 36px auto 0px;
     max-width: 320px;
   }
   .content__description {
@@ -220,12 +195,11 @@
     text-align: left;
     color: #ffffff;
     padding-top: 13px;
-    margin: auto;
+    margin: auto 1px auto -1px;
     max-width: 320px;
   }
   .content__quote {
-    margin-left: 85px;
-    margin-right: -19px;
+    margin-left: 5px;
     font-size: 24px;
     line-height: 34px;
   }
@@ -236,12 +210,12 @@
     line-height: 26.08px;
     text-align: left;
     color: #ffffff;
-    margin: auto;
+    margin: 10px 6px;
     padding-top: 183px;
-    max-width: 320px;
+    max-width: 288px;
   }
   .content__gallery {
-    margin: auto 12px auto 104px;
+    margin: auto 48px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -249,16 +223,5 @@
   }
   .content__gallery-item {
     width: 100%;
-  }
-  .content__container {
-    margin: auto 4px auto 97px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas:
-      "header "
-      "image "
-      "right"
-      "footer";
-    gap: 16px;
   }
 }

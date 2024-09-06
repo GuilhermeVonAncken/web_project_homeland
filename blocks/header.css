@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    margin: auto 133px auto -17px;
+    margin: auto;
   }
   .header__content {
     margin: auto;
@@ -110,10 +110,10 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    margin: auto 1px auto 50px;
+    margin: auto;
   }
   .header__content {
-    margin: auto -41px;
+    margin: auto;
   }
   .header__title {
     font-family: "Inter";
@@ -123,7 +123,7 @@
     text-align: center;
     width: 275px;
     padding-top: 32px;
-    margin: auto 49px;
+    margin: auto;
   }
   .header__subtitle {
     font-size: 16px;
@@ -134,10 +134,12 @@
     width: 288px;
     padding-bottom: 25px;
     padding-top: 10px;
-    margin: auto 35px;
+    margin: auto 93px;
   }
   .header__logo {
-    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto 1px auto 114px;
   }
   .header__img {
     width: 106%;
