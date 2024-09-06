@@ -76,6 +76,7 @@
   text-align: left;
   color: #ffffff;
   margin-top: 30px;
+  text-decoration: none;
 }
 .image__text {
   font-family: "Inter";
@@ -137,7 +138,7 @@
   }
   .grid__image {
     width: 102%;
-    margin: auto -9px;
+    margin: auto;
   }
   .grid__title {
     font-size: 32px;
