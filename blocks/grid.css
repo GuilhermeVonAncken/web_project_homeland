@@ -84,14 +84,6 @@
   opacity: 1px;
 }
 
-.image__text {
-  font-family: "Inter";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 29.34px;
-  text-align: left;
-  color: #000000;
-}
 .grid__image {
   max-width: 460px;
   max-height: 460px;
