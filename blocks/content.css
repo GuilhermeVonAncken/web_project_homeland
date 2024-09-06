@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 1024px) {
   .content {
-    margin: auto 0px auto 60px;
+    margin: auto 0;
     padding-top: 62px;
     padding: 10px;
     max-width: 720px;
@@ -72,7 +72,6 @@
     font-size: 45px;
     font-weight: 900;
     line-height: 49px;
-    text-align: center;
     margin: auto 0;
     max-width: 707px;
   }
@@ -103,7 +102,7 @@
   }
   .content__gallery {
     max-width: 720px;
-    margin: 10px 1px auto 109px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -174,6 +173,7 @@
 
 @media screen and (max-width: 320px) {
   .content {
+    margin: auto;
   }
 
   .content__title {
