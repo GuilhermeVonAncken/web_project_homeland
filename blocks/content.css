@@ -156,7 +156,7 @@
   max-width: 460px;
   max-height: 460px;
   background: #000000;
-  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 .content__grid-image:hover {
   cursor: pointer;
