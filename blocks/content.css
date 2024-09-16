@@ -4,7 +4,7 @@
 
 .content__title {
   height: 116px;
-  margin: auto 0;
+  margin: 0;
   font-family: "Inter";
   font-size: 54px;
   font-weight: 900;
@@ -12,6 +12,7 @@
   text-align: left;
   color: #ffffff;
   padding-left: 143px;
+  padding-top: 92px;
 }
 .content__description {
   font-family: "Inter";
@@ -20,7 +21,7 @@
   line-height: 34px;
   text-align: left;
   color: #ffffff;
-  margin: auto 0;
+  margin: 0;
   padding-top: 75px;
   padding-left: 143px;
   width: 630px;
@@ -45,6 +46,7 @@
   margin: auto 0;
   width: 630px;
   padding-left: 143px;
+  margin: 0;
 }
 .content__gallery {
   max-width: 1184px;
@@ -206,6 +208,7 @@
     margin: auto;
     padding-top: 97px;
     max-width: 720px;
+    padding-bottom: 64px;
   }
   .content__gallery {
     max-width: 720px;
@@ -223,6 +226,19 @@
     max-width: 984px;
     align-items: center;
     margin: auto -256px auto 25px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .content__title {
+    margin: auto 10px auto -130px;
+  }
+  .content__description {
+    margin: auto 1px auto -130px;
+  }
+  .content__text {
+    margin: auto 1px auto -130px;
+    padding-bottom: 64px;
   }
 }
 
@@ -250,7 +266,6 @@
     text-align: left;
     color: #ffffff;
     padding-top: 13px;
-    margin: auto;
     max-width: 544px;
   }
   .content__quote {
@@ -265,9 +280,9 @@
     line-height: 26.08px;
     text-align: left;
     color: #ffffff;
-    margin: auto 0;
     max-width: 544px;
     padding-top: 163px;
+    padding-bottom: 64px;
   }
   .content__gallery {
     max-width: 768px;
