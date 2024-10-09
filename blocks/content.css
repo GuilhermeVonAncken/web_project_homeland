@@ -1,9 +1,41 @@
 .content__card {
   max-width: 800px;
   margin: auto 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.content__card-item {
+  margin: auto;
+  height: 361px;
+  width: 282px;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .content__card-image {
   width: 282px;
   height: 282px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.content__card-description {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-align: left;
+  margin-left: 21px;
+}
+.content__card-icon {
+  margin-left: 223px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -20px;
+}
+.content__card-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }

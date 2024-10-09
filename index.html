@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Web Projects com HTML 5 e css 3 avançado"
+    />
+    <meta name="keywords" content="HTML, CSS, layout responsivo" />
+    <meta name="author" content="Guilherme Von Ancken" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Around the World</title>
+    <title>Around the US</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img class="header__logo" src="./images/Vector.jpg"></img>        
-        <div>
-          <img class="header__image" alt="Imagem de Guilherme" />
-          <h1 class="header__title">Guilherme Von Ancken</h1>
-          <p class="header__subtitle">Explorador</p>
+        <img class="header__logo" src="./images/Vector.png" />
+        <div class="header__content">
+          <img
+            class="header__image"
+            src="./images/Avatar.png"
+            alt="Imagem de Jacques Cousteau"
+          />
+          <div class="header__text">
+            <h1 class="header__title">
+              Jacques Cousteau
+              <img
+                class="header__icon-edit"
+                src="./images/Edit Button.png"
+                alt="Imagem de icone de edição"
+              />
+              <img
+                class="header__icon-add"
+                src="./images/Add Button.png"
+                alt="Imagem de botão adicionar"
+              />
+            </h1>
+            <p class="header__subtitle">Explorador</p>
+          </div>
         </div>
       </header>
       <main>
@@ -20,19 +46,96 @@
           <div class="content__card-item">
             <img
               class="content__card-image"
-              src="./images/moraine_lake_summer.2000x1198.jpg"
+              src="./images/vale_de_yosemite.jpg"
               alt="imagem de lago louise"
             />
-            <p class="content__card-description">Lago Louise</p>
+            <p class="content__card-description">
+              Vale de Yosemite
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
+          </div>
+          <div class="content__card-item">
             <img
-              class="content__card-icon"
-              src="./images/Vector_hart.jpg"
-              alt="imagem de um ícone de coração"
+              class="content__card-image"
+              src="./images/moraine_lake_summer.2000x1198.jpg"
+              alt="imagem de vale de yosemite"
             />
+            <p class="content__card-description">
+              Lago Louise
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
+          </div>
+          <div class="content__card-item">
+            <img
+              class="content__card-image"
+              src="./images/Montanhas_care.jpg"
+              alt="imagem de montanhas"
+            />
+            <p class="content__card-description content__card-text">
+              Montanhas Care...
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
+          </div>
+          <div class="content__card-item">
+            <img
+              class="content__card-image"
+              src="./images/Latemar.jpg"
+              alt="imagem de latemar"
+            />
+            <p class="content__card-description">
+              Latemar
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
+          </div>
+          <div class="content__card-item">
+            <img
+              class="content__card-image"
+              src="./images/Parque_Nacional.jpg"
+              alt="imagem de parque nacional"
+            />
+            <p class="content__card-description content__card-text">
+              Parque Nacional...
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
+          </div>
+          <div class="content__card-item">
+            <img
+              class="content__card-image"
+              src="./images/Lago_di_brailes.jpg"
+              alt="imagem de Lago di Braies"
+            />
+            <p class="content__card-description">
+              Lago di Braies
+              <img
+                class="content__card-icon"
+                src="./images/Icon_heart.png"
+                alt="imagem de um ícone de coração"
+              />
+            </p>
           </div>
         </section>
       </main>
-      <footer>© 2024 Around The World</footer>
+      <footer class="footer">© 2024 Around The World</footer>
     </div>
   </body>
 </html>
