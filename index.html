@@ -28,10 +28,39 @@
             <h1 class="header__title">
               Jacques Cousteau
               <img
-                class="header__icon-edit"
+                class="header__icon-edit open-button"
+                onclick="openPopup()"
                 src="./images/Edit Button.png"
                 alt="Imagem de icone de edição"
               />
+              <div class="popup" id="popup">
+                <form class="popup__content">
+                  <img
+                    src="./images/Close Icon.png"
+                    class="close-button"
+                    onclick="closePopup()"
+                  />
+
+                  <h1 class="header__popup-title">Editar perfil</h1>
+
+                  <label for="name"></label>
+                  <input
+                    class="header__popup-form"
+                    type="text"
+                    placeholder="Seu nome"
+                    name="name"
+                  />
+
+                  <label for="about me"></label>
+                  <input
+                    class="header__popup-form"
+                    type="text"
+                    placeholder="Sobre mim"
+                    name="Sobre mim"
+                  />
+                  <button class="header__save-button submit">Salvar</button>
+                </form>
+              </div>
               <img
                 class="header__icon-add"
                 src="./images/Add Button.png"
@@ -53,7 +82,7 @@
             <img
               class="content__card-image"
               src="./images/vale_de_yosemite.jpg"
-              alt="imagem de lago louise"
+              alt="imagem de vale de yosemite"
             />
             <p class="content__card-description">
               Vale de Yosemite
@@ -67,8 +96,8 @@
           <div class="content__card-item">
             <img
               class="content__card-image"
-              src="./images/moraine_lake_summer.2000x1198.jpg"
-              alt="imagem de vale de yosemite"
+              src="./images/kirill-pershin-1404681-unsplash.png"
+              alt="imagem de lago Louise"
             />
             <p class="content__card-description">
               Lago Louise
@@ -142,6 +171,7 @@
         </section>
       </main>
       <footer class="footer">© 2024 Around The World</footer>
+      <script src="./script/openClose__PopUp-button.js"></script>
     </div>
   </body>
 </html>

@@ -7,3 +7,9 @@
   text-align: left;
   color: #545454;
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 37px 63px;
+  }
+}
