@@ -21,7 +21,7 @@
   color: #ffffff;
   margin-left: 17px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .header__subtitle {
   color: #ffffff;
@@ -36,7 +36,7 @@
   margin: auto 6px auto 10px;
 }
 .header__icon-add {
-  margin: auto -42px auto 276px;
+  margin: -51px -42px 15px 304px;
 }
 .header__icon-mobile {
   display: none;
@@ -45,6 +45,7 @@
   margin: auto;
   cursor: pointer;
   opacity: 0.8;
+  margin: -48px 1px 37px 270px;
 }
 #popup {
   display: none;
@@ -117,18 +118,23 @@
   }
   .header__title {
     color: #ffffff;
-    margin-left: -12px;
-    display: flex;
-    justify-content: space-evenly;
+    margin-left: -159px;
   }
   .header__subtitle {
-    margin-left: -6px;
+    margin-left: -157px;
+    margin-top: -85px;
   }
   .header__image {
-    margin: auto -31px;
+    margin: auto -179px;
+  }
+  .open-button {
+    margin: -50px 1px 38px 98px;
+  }
+  .header__icon-edit {
+    margin: -49px 1px 38px 100px;
   }
   .header__icon-add {
-    margin: 1px 1px 1px 236px;
+    margin: -70px 1px 64px 408px;
   }
   .header__icon-mobile {
     display: none;
@@ -157,9 +163,9 @@
   }
   .header__title {
     width: max-content;
+    margin: 10px 1px 72px 1px;
   }
   .header__subtitle {
-    margin-top: -10px;
     margin-left: 104px;
   }
   .header__content {
@@ -170,8 +176,8 @@
     display: none;
   }
   .header__icon-edit {
-    margin: 6px 1px 1px 12px;
     height: fit-content;
+    margin: -96px 1px 90px 262px;
   }
   .header__icon-mobile {
     display: block;
