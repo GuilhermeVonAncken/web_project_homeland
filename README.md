@@ -1,4 +1,4 @@
-# Triple Espresso
+# Project Around
 
 Trabalhando com HTML 5, CSS 3 avançado e javaScript.
 Criando layouts responsivos e adaptativos. Tornando a página mais interativa com javaScript e logo mais dinâmica e interessante.
